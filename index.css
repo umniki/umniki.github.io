@@ -24,7 +24,7 @@ div:hover {
 div {
   align-self: center;
   justify-self: center;
-  width: 90vw;
+  width: 85vw;
   max-width: 800px;
   background-color: palegoldenrod;
   border: .5vh solid darksalmon;

@@ -1,0 +1,33 @@
+body {
+  background-image: url(./back.jpg);
+  background-size: contain;
+  display: grid;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+
+a {
+  color: cornflowerblue;
+  text-decoration: none;
+  font-size: 6vh;
+  align-self: center;
+  justify-self: center;
+  border-radius: 5vh;
+}
+
+div:hover {
+  background-color: chocolate;
+  color: lawngreen;
+}
+
+div {
+  align-self: center;
+  justify-self: center;
+  width: 90vw;
+  max-width: 800px;
+  background-color: palegoldenrod;
+  border: .5vh solid darksalmon;
+  border-radius: 5vh;
+  margin: 2vh;
+}

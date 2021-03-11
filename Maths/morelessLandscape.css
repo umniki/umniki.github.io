@@ -1,0 +1,39 @@
+/*all properties*/
+body {
+  background-image: url(./../back.jpg);
+  background-size: contain;
+}
+
+#example {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.morelessButton button {
+  display: block;
+}
+
+.inline span,
+.inline div,
+.inline b {
+  display: inline-block;
+}
+
+.inline {
+  margin: 1em;
+}
+
+span {
+  font-size: 5em;
+}
+
+.result {
+  font-size: 4em;
+}
+
+b {
+  font-size: 0.5em;
+}
